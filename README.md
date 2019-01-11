@@ -1,4 +1,4 @@
-#Crazy Movie Gallery
+# Crazy Movie Gallery
 
 This is a <b>MERN (MongoDB - Express - React - Node) JS web app</b> to check the latest movies release online: https://crazymoviegallery.herokuapp.com/
 
