@@ -1,0 +1,80 @@
+/* WebsiteLayout style */
+.contentBackground {
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 64px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#footer{
+  text-align: center;
+}
+
+/* WebsiteHeader style */
+#header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#headerMenu{
+  line-height: 64px;
+  width: 300px;
+}
+
+.WebsiteLogo{
+  height: 30px;
+  margin-left:5px;
+  margin-right:20px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MovieCard style */
+.centerCard {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom:10px;
+  height:332px;
+}
+
+#heart{
+  position:absolute;
+  top:10px;
+  right: 10px;
+}
+
+#cover{
+  width:100%;
+}
+
+.movieCard{
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+  width: 240px;
+  border-style: hidden !important;
+  border-radius: 0px !important;
+}
+
+.movieCard::-webkit-scrollbar {
+  width: 6px;
+}
+
+.movieCard::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.movieCard::-webkit-scrollbar-thumb {
+  background-color: #001529;
+}
