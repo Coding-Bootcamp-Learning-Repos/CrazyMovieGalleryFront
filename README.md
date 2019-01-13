@@ -17,4 +17,4 @@ I built this app to learn about:
   <li>Setting up, reading and updating a <b>mongo DB with Mongoose Framework</b> to keep in memory the favorite movies</li>
   <li>Building my first <b>React</b> web app</li>
   <li>Connecing my React app to my back-end server
-  
+</ol>
